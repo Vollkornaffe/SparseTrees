@@ -1,0 +1,8 @@
+#pragma once
+
+#include "Tree.h"
+
+using QuadTree = Tree<2, 1>;
+using QuadTreeNode = QuadTree::TreeNodeT;
+using OcTree = Tree<3, 1>;
+using OcTreeNode = OcTree::TreeNodeT;

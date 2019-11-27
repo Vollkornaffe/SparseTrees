@@ -1,0 +1,2 @@
+ADD_EXECUTABLE(test EXCLUDE_FROM_ALL catch_config_main.cpp random_points.cpp)
+TARGET_LINK_LIBRARIES(test PRIVATE SparseTrees)
